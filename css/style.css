@@ -1,0 +1,35 @@
+body{
+    background-color: #083b4c;
+}
+
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-square{
+    flex: 0 0 calc(100% / 7);
+    margin: 10px 0;
+    /* background-color: #1389b2; */
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: #1389b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.fizz{
+    background-color: #0bd6a1;
+}
+
+.box.buzz{
+    background-color: #ffd166;
+}
+
+.box.fizzbuzz{
+    background-color: #f0466f;
+}
